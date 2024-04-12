@@ -1,0 +1,28 @@
+.app {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.main-page {
+  display: flex;
+}
+
+.left-navigation {
+  width: 5%;
+  padding: 20px;
+  border-right: solid 1px #DBDBDB;
+}
+
+.middle-section {
+  width: 25%;
+  padding: 30px;
+  border-right: solid 1px #DBDBDB;
+}
+
+.right-section {
+  width: 70%;
+  padding: 30px;
+}

@@ -1,0 +1,13 @@
+.search-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box {
+  padding: 5px;
+  margin-top: 24px;
+  margin-bottom: 5px;
+  border: solid 1px #DBDBDB;
+  border-radius: 4px;
+  width: 100%;
+}

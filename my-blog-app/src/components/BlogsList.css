@@ -1,0 +1,14 @@
+.blogs-list {
+  list-style: none;
+  padding-left: unset;
+}
+
+.blogs-list li {
+  display: flex;
+}
+
+.blogs-list li img {
+  width: 80px;
+  height: 90px;
+  margin-right: 10px;
+}
