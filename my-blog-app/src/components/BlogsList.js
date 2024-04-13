@@ -1,11 +1,10 @@
 import React from 'react';
-import data from './LeftNavigationData.json';
 import './BlogsList.css';
 
-export default function BlogsList() {
+export default function BlogsList({ blogs }) {
   return (
     <ul className='blogs-list'>
-      {data.blogs.map(blog => {
+      {blogs.map(blog => {
         const { title, sharedBy, sharedTime, srcPath, imgName } = blog;
         return (
           <li key={title}>

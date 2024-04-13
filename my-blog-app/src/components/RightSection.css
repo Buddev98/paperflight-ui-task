@@ -1,0 +1,24 @@
+.right-side-content {
+  padding: 30px;
+}
+
+.right-side-header { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side-header .icons-list {
+  display: flex;
+  margin: unset;
+}
+
+.right-side-header .icons-list li {
+  margin-bottom: unset;
+}
+
+.right-side-header .icons-list img {
+  width: 35px;
+  height:  35px;
+  margin-right: 10px;
+}
+

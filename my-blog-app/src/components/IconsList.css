@@ -11,6 +11,10 @@
   margin-bottom: unset;
 } */
 
+.icons-list li .icon-btn {
+  all: unset;
+}
+
 .icons-list li img {
   width: 20px;
   height: 20px;

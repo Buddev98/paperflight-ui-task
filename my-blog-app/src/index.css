@@ -1,20 +1,57 @@
+@import './fonts.css';
+
 body {
   margin: 0;
-  font-family: 'Samsung Sharp Sans', sans-serif;
+  font-family: 'samsungsharpsans', sans-serif;
 }
 
 h1 {
   font-size: 32px;
   font-weight: 700;
   line-height: 41.76px;
+  font-family: 'samsungsharpsans-bold', sans-serif;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 31.32px;
+  font-family: 'samsungsharpsans-bold', sans-serif;
 }
 
-h1, h3, p {
-  margin: 0;
+h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  font-family: 'samsungsharpsans-medium', sans-serif;
+}
+
+p {
+  font-size: 12px;
+  line-height: 14.88px;
+}
+
+h1, h2, h3, p {
+  margin: 0 0 10px 0;
+}
+
+.medium-font {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  font-family: 'samsungsharpsans-medium', sans-serif;
+}
+
+.medium-black {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.64px;
+  font-family: 'samsungsharpsans-medium', sans-serif;
+  color: #000000;
+}
+
+.small-font {
+  font-size: 12px;
+  line-height: 14.88px;
+  font-family: 'samsungsharpsans', sans-serif;
 }

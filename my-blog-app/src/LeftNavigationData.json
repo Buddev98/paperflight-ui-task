@@ -1,0 +1,59 @@
+{
+  "icons": [
+    { "name": "search", "srcPath": "/icons/search.svg"},
+    { "name": "sections", "srcPath": "/icons/sections.svg"},
+    { "name": "stack", "srcPath": "/icons/stack.svg"},
+    { "name": "messages", "srcPath": "/icons/messages.svg"},
+    { "name": "meter", "srcPath": "/icons/meter.svg"},
+    { "name": "share", "srcPath": "/icons/share.svg"}
+  ],
+  "blogs": [
+    { "title": "Meet New Paperflite", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Collection “seeeek”", "srcPath" : "/icons/capture.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Indira Gandhi International Ai...", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Paperflite Originals", "srcPath" : "/icons/capture.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Meet New Paperflite", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"}
+  ],
+  "loginIcons": [
+    { "name": "search", "srcPath": "/icons/apps.svg", "isUserIcon" : false },
+    { "name": "sections", "srcPath": "/icons/user-image.svg", "isUserIcon": true }
+  ],
+  "rightSectionIcons": [
+    { "name": "eye", "srcPath": "/icons/eye.svg"},
+    { "name": "undoIcon", "srcPath": "/icons/undo-icon.svg"},
+    { "name": "bin", "srcPath": "/icons/bin-icon.svg"}
+  ],
+  "statisticsInfo": [
+    { "value": "50%", "srcPath": "/icons/mail-icon.svg", "imgName": "mail", "labelName": "email open rate" },
+    { "value": "100%", "srcPath": "/icons/user-icon.svg", "imgName": "mail", "labelName": "content click rate" },
+    { "value": "22:53", "srcPath": "/icons/clock-icon.svg", "imgName": "mail", "labelName": "total time spent" },
+    { "value": "$ 367", "srcPath": "/icons/money-icon.svg", "imgName": "mail", "labelName": "deal value" }
+  ],
+  "recepients": [
+    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+      { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
+      { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
+      { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
+    ] },
+    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+      { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
+      { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
+      { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
+    ] },
+    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+      { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
+      { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
+      { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
+    ] },
+    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+      { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
+      { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
+      { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
+    ] },
+    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+      { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
+      { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
+      { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
+    ] }
+  ]
+}

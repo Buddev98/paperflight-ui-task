@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'samsungsharpsans';
+  src: local('samsungsharpsans'),
+       url('./fonts/samsungsharpsans.ttf') format('ttf'),
+       url('./fonts/samsungsharpsans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'samsungsharpsans-bold';
+  src: local('samsungsharpsans-bold'),
+       url('./fonts/samsungsharpsans-bold.ttf') format('ttf'),
+       url('./fonts/samsungsharpsans-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'samsungsharpsans-medium';
+  src: local('samsungsharpsans-medium'),
+       url('./fonts/samsungsharpsans-medium.ttf') format('ttf'),
+       url('./fonts/samsungsharpsans-medium.woff') format('woff');
+}
+
+
