@@ -12,7 +12,10 @@ export default function MiddleSection() {
         </div>
         <img src='/icons/more.svg' />
       </div>
-      <input className='search-box' placeholder='search by conversations and contacts' type="search" id="gsearch" name="gsearch" />
+      <div className='search-icon'>
+        <img src='/icons/search.svg' alt='search' />
+        <input className='search-box' placeholder='search by conversations and contacts' type="search" id="gsearch" name="gsearch" />      
+      </div>
       <BlogsList />
     </>
   )

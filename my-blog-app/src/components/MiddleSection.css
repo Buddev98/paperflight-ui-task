@@ -4,10 +4,21 @@
 }
 
 .search-box {
-  padding: 5px;
+  padding: 15px 5px;
   margin-top: 24px;
   margin-bottom: 5px;
   border: solid 1px #DBDBDB;
   border-radius: 4px;
   width: 100%;
+}
+
+.search-icon {
+  position: relative;
+}
+
+.search-icon img {
+  position: absolute;
+  top: 38px;
+  right: 15px;
+  z-index: 1;
 }

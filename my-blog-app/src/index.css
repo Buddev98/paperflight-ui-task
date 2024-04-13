@@ -3,6 +3,18 @@ body {
   font-family: 'Samsung Sharp Sans', sans-serif;
 }
 
-h1, p {
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.76px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.32px;
+}
+
+h1, h3, p {
   margin: 0;
 }

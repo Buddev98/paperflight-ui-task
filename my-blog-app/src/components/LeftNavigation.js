@@ -1,14 +1,14 @@
 import React from 'react';
 import data from './LeftNavigationData.json';
 import './LeftNavigation.css';
+import IconsList from './IconsList';
 
 export default function LeftNavigation() {
-  const { icons } = data;
+  const { icons, loginIcons } = data;
   return (
-    <nav>
-      <ul className='icons-list'>
-        {icons.map(icon => <li key={icon.name}><img src={icon.srcPath} /></li>)}
-      </ul>
+    <nav className='navigation-list'>
+      <IconsList icons={icons}/>
+      <IconsList icons={loginIcons}/>
     </nav>
   )
 }

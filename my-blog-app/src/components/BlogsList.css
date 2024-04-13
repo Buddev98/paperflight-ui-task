@@ -1,11 +1,20 @@
 .blogs-list {
   list-style: none;
   padding-left: unset;
+  padding-left: unset;
+  margin-bottom: unset;
+  overflow: hidden;
 }
 
 .blogs-list li {
   display: flex;
+  margin-bottom: 16px;
 }
+
+.blogs-list li:last-child {
+  margin-bottom: unset;
+}
+
 
 .blogs-list li img {
   width: 80px;

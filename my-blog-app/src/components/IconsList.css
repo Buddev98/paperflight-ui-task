@@ -1,0 +1,22 @@
+.icons-list {
+  list-style: none;
+  padding-left: unset;
+}
+
+.icons-list li {
+  margin-bottom: 40px;
+}
+
+/* .icons-list li:last-child {
+  margin-bottom: unset;
+} */
+
+.icons-list li img {
+  width: 20px;
+  height: 20px;
+}
+
+.icons-list li .user-icon {
+  width: 35px;
+  height: 35px;
+}
