@@ -26,3 +26,14 @@
   width: 35px;
   height: 35px;
 }
+
+@media only screen and (max-width: 768px) {
+  .stats-cards-list {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .stats-cards-list .stats-card {
+    width: 140px;
+  }
+}

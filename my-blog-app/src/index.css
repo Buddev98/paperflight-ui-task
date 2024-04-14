@@ -35,11 +35,35 @@ h1, h2, h3, p {
   margin: 0 0 10px 0;
 }
 
+button {
+  all: unset;
+}
+
+.active {
+  color: #E51058 !important;
+}
+
 .medium-font {
   font-size: 14px;
   font-weight: 500;
   line-height: 17.64px;
   font-family: 'samsungsharpsans-medium', sans-serif;
+}
+
+.medium-black-14 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  font-family: 'samsungsharpsans-bold', sans-serif;
+  color: #000000;
+}
+
+.medium-black-16 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.64px;
+  font-family: 'samsungsharpsans-medium', sans-serif;
+  color: #000000;
 }
 
 .medium-black {
@@ -54,4 +78,24 @@ h1, h2, h3, p {
   font-size: 12px;
   line-height: 14.88px;
   font-family: 'samsungsharpsans', sans-serif;
+}
+
+.small-black-10 {
+  font-size: 10px;
+  line-height: 14.88px;
+  font-family: 'samsungsharpsans-bold', sans-serif;
+}
+
+.light-gray-12 {
+  font-size: 12px;
+  line-height: 14.88px;
+  font-family: 'samsungsharpsans', sans-serif;
+  color: #A9A9A9;
+}
+
+.medium-gray-12 {
+  font-size: 12px;
+  line-height: 14.88px;
+  font-family: 'samsungsharpsans-medium', sans-serif;
+  color: #717274;
 }

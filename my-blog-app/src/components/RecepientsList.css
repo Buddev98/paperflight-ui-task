@@ -17,6 +17,11 @@
   padding-left: 15px;
 }
 
+.recepients-list li div span.last-viewed {
+  border-left: solid 1px #DBDBDB;
+  margin-left: 15px;
+}
+
 .recepients-options {
   display: flex;
   align-items: center;
@@ -45,4 +50,10 @@
   all: unset;
   padding-left: 24px;
   border-left: solid 1px #DBDBDB;
+}
+
+@media only screen and (max-width: 768px) {
+  .location-btn, .last-viewed {
+    display: none;
+  }
 }

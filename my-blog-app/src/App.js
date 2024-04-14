@@ -12,7 +12,7 @@ function App() {
         <div className="left-navigation"><LeftNavigation data={data} /></div>
         <div className="middle-section"><MiddleSection data={data} /></div>
         <div className="right-section">
-          <img className="banner-image" src='/banner-web-image.svg' alt='bannerImage' />
+          {/* <img className="banner-image" src='/banner-web-image.svg' alt='bannerImage' /> */}
           <RightSection data={data} />
         </div>
       </div>

@@ -1,8 +1,10 @@
 .right-side-content {
   padding: 30px;
+  background: url('../../public/banner-web-image.svg') no-repeat, linear-gradient(180deg, #DBDBDB, white 10%);
 }
 
 .right-side-header { 
+  margin-top: 105px;
   display: flex;
   justify-content: space-between;
 }
@@ -22,3 +24,21 @@
   margin-right: 10px;
 }
 
+.right-side-content .toggle-options button {
+  padding: 10px;
+}
+
+.right-side-content .toggle-options button.active {
+  border-bottom: solid 1px #E51058;
+}
+
+@media only screen and (max-width: 768px) {
+  .right-side-content {
+    padding: 15px;
+    background: url('../../public/banner-mobile-image.svg') no-repeat;
+  }
+
+  .right-side-header {
+    margin-top: 150px;
+  }
+}

@@ -7,7 +7,7 @@ export default function StatisticsList({ statsInfo }) {
       {statsInfo.map((item) => (
         <div className="stats-card">
           <div className="stats-value">
-            <span>{item.value}</span>
+            <span className='medium-black-14'>{item.value}</span>
             <img src={item.srcPath} alt={item.imgName} />
           </div>
           <p className="stats-label">{item.labelName}</p>

@@ -11,7 +11,7 @@ export default function RecepientsList({ userOptions }) {
           <div>
             <img src={user.srcPath} alt={user.imgName} />
             <span className='medium-font'>{user.userName}</span>
-            <span className='small-font'>{user.lastViewed}</span>
+            <span className='small-font last-viewed'>{user.lastViewed}</span>
           </div>
           <div className='recepients-options'>
             <span className='small-font'>{user.timeValue}</span>

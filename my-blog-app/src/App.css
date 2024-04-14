@@ -30,12 +30,21 @@
   width: 100%;
 }
 
-@media only screen and(max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .main-page {
     flex-direction: column-reverse;
   }
 
   .left-navigation, .middle-section, .right-section {
     width: 100%;
+  }
+
+  .left-navigation {
+    border-top: solid 1px #DBDBDB;
+    padding: unset;
+  }
+
+  .middle-section {
+    display: none;
   }
 }

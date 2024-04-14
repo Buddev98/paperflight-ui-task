@@ -1,11 +1,11 @@
 {
   "icons": [
-    { "name": "search", "srcPath": "/icons/search.svg"},
-    { "name": "sections", "srcPath": "/icons/sections.svg"},
-    { "name": "stack", "srcPath": "/icons/stack.svg"},
-    { "name": "messages", "srcPath": "/icons/messages.svg"},
-    { "name": "meter", "srcPath": "/icons/meter.svg"},
-    { "name": "share", "srcPath": "/icons/share.svg"}
+    { "name": "search", "srcPath": "/icons/search.svg", "showInMoblie": false },
+    { "name": "sections", "srcPath": "/icons/sections.svg", "showInMoblie": true },
+    { "name": "stack", "srcPath": "/icons/stack.svg", "showInMoblie": true },
+    { "name": "messages", "srcPath": "/icons/messages.svg", "showInMoblie": true },
+    { "name": "meter", "srcPath": "/icons/meter.svg", "showInMoblie": false },
+    { "name": "share", "srcPath": "/icons/share.svg", "showInMoblie": false }
   ],
   "blogs": [
     { "title": "Meet New Paperflite", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},

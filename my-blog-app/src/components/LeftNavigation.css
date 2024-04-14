@@ -4,3 +4,27 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 768px) {
+  
+  .navigation-list .icons-list:first-child {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: unset;
+  }
+
+  .navigation-list .icons-list:first-child li {
+    margin-bottom: 20px;
+  }
+
+
+  .navigation-list .icons-list:first-child img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navigation-list .icons-list:last-child {
+    display: none;
+  }
+  
+}
