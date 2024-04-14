@@ -6,12 +6,12 @@ export default function BlogsList({ blogs }) {
   return (
     <ul className='blogs-list'>
       {blogs.map(blog => {
-        const { title, sharedBy, sharedTime, srcPath, imgName } = blog;
+        const { title, id, sharedBy, sharedTime, srcPath, imgName } = blog;
         return (
-          <li key={title} onClick={() => setActive(title)}>
+          <li key={id} onClick={() => setActive(id)}>
             <img src={srcPath} alt={imgName} />
             <div className='details-section'>
-              <h3 className={`${active === title ? 'active' : ''}`}>{title}</h3>
+              <h3 className={`${active === id ? 'active' : ''}`}>{title}</h3>
               <p className='medium-gray-12'>{sharedTime}</p>
               <p className='light-gray-12'>{sharedBy}</p>
             </div>

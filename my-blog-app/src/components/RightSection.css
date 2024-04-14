@@ -28,8 +28,12 @@
   padding: 10px;
 }
 
-.right-side-content .toggle-options button.active {
-  border-bottom: solid 1px #E51058;
+.right-side-content .toggle-options button.active::after {
+  content: "";
+  border-bottom: 2px solid #E51058;
+  width: 15%;
+  display: block;
+  margin: 10px auto 0 auto;
 }
 
 @media only screen and (max-width: 768px) {

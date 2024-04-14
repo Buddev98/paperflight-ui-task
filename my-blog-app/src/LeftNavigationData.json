@@ -8,11 +8,11 @@
     { "name": "share", "srcPath": "/icons/share.svg", "showInMoblie": false }
   ],
   "blogs": [
-    { "title": "Meet New Paperflite", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
-    { "title": "Collection “seeeek”", "srcPath" : "/icons/capture.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
-    { "title": "Indira Gandhi International Ai...", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
-    { "title": "Paperflite Originals", "srcPath" : "/icons/capture.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
-    { "title": "Meet New Paperflite", "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"}
+    { "title": "Meet New Paperflite", "id": 1, "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Collection “seeeek”", "id": 2, "srcPath" : "/icons/capture.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Indira Gandhi International Ai...", "id": 3, "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Paperflite Originals", "id": 4, "srcPath" : "/icons/capture.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"},
+    { "title": "Meet New Paperflite", "id": 5, "srcPath" : "/icons/fishing.svg", "imgName": "messages", "sharedBy": "Kevin +6 more", "sharedTime": "Shared 4 hours ago"}
   ],
   "loginIcons": [
     { "name": "search", "srcPath": "/icons/apps.svg", "isUserIcon" : false },
@@ -35,22 +35,22 @@
       { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
       { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
     ] },
-    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+    { "userName": "Elizabeth Carol", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/elizabeth-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
       { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
       { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
       { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
     ] },
-    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+    { "userName": "Michael", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/micheal-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
       { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
       { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
       { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
     ] },
-    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+    { "userName": "Pamela Jack", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/pamela-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
       { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
       { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
       { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
     ] },
-    { "userName": "James Clark", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/james-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
+    { "userName": "Pamela Jack", "lastViewed": "last viewed 02 Jan 2024", "srcPath": "/images/pamela-profile.svg", "imgName": "james-profile", "timeValue": "~85m", "options": [
       { "name": "eye", "srcPath": "/icons/mail-pink.svg"},
       { "name": "undoIcon", "srcPath": "/icons/user-icon.svg"},
       { "name": "bin", "srcPath": "/icons/share-icon-pink.svg"}
