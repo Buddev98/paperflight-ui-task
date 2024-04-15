@@ -11,7 +11,7 @@ export default function BlogsList({ blogs }) {
           <li key={id} onClick={() => setActive(id)}>
             <img src={srcPath} alt={imgName} />
             <div className='details-section'>
-              <h3 className={`${active === id ? 'active' : ''}`}>{title}</h3>
+              <p className={`medium-font ${active === id ? 'active' : ''}`}>{title}</p>
               <p className='medium-gray-12'>{sharedTime}</p>
               <p className='light-gray-12'>{sharedBy}</p>
             </div>

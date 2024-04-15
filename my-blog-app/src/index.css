@@ -21,19 +21,12 @@ h2 {
   font-family: 'samsungsharpsans-bold', sans-serif;
 }
 
-h3 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 17.64px;
-  font-family: 'samsungsharpsans-medium', sans-serif;
-}
-
 p {
   font-size: 12px;
   line-height: 14.88px;
 }
 
-h1, h2, h3, p {
+h1, h2, p {
   margin: 0 0 10px 0;
 }
 
